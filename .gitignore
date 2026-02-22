@@ -1,0 +1,32 @@
+# Data Files
+*.csv
+*.parquet
+dataset/
+*.zip
+*.tar.gz
+
+# Node2Vec / XGBoost Models & Artifacts
+*.model
+artifacts/
+*.json
+*.pkl
+
+# Environments
+venv/
+graphenv/
+new_venv/
+.env
+.venv
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Visualizations (Optional to ignore, but good practice if large)
+*.png
+*.jpg
+*.pdf

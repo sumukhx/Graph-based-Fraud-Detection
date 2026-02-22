@@ -1,0 +1,11 @@
+digraph Schema {
+  rankdir=LR;
+  node [shape=box style=filled fillcolor=lightgrey];
+  "Transaction" -> "AddressProfile" [label="HAS_ADDRESSPROFILE"];
+  "Transaction" -> "CardIssuer" [label="HAS_CARDISSUER"];
+  "Transaction" -> "CardProfile" [label="HAS_CARDPROFILE"];
+  "Transaction" -> "Device" [label="HAS_DEVICE"];
+  "Transaction" -> "EmailDomain" [label="HAS_EMAILDOMAIN"];
+  "Transaction" -> "IdentityProfile" [label="HAS_IDENTITYPROFILE"];
+  "Transaction" -> "Region" [label="HAS_REGION"];
+}

@@ -1,0 +1,35 @@
+
+    PHASE-0 VALIDATION REPORT
+    -------------------------
+    Total Nodes: 30935
+    Total Edges: 105617
+    
+    Node Count by Type:
+    {'Transaction': 20000, 'CardProfile': 3302, 'CardIssuer': 3192, 'AddressProfile': 119, 'Region': 117, 'EmailDomain': 58, 'Device': 315, 'IdentityProfile': 3832}
+    
+    Constraint Checks:
+    1. No TX-TX Edges: PASS
+    2. Time-Safe Stats Used: YES (Verified logic)
+    3. Hubs Controlled: YES (Flags added, visualization will respect)
+    
+    Top 20 Entities by Degree:
+    EMAIL_f74d39fa04 (EmailDomain): Deg=8532, FraudRate=3.36%
+    EMAIL_50cd1a9a18 (EmailDomain): Deg=3701, FraudRate=1.41%
+    EMAIL_d30663cb0b (EmailDomain): Deg=2045, FraudRate=5.33%
+    DEV_464c345582 (Device): Deg=1796, FraudRate=4.40%
+    EMAIL_c9bd98d26e (EmailDomain): Deg=1630, FraudRate=1.11%
+    ADDRP_60d6bd613e (AddressProfile): Deg=1570, FraudRate=2.04%
+    REG_239da63a14 (Region): Deg=1570, FraudRate=2.04%
+    ADDRP_9d5776f4f9 (AddressProfile): Deg=1427, FraudRate=1.33%
+    REG_974241756f (Region): Deg=1427, FraudRate=1.33%
+    ADDRP_b2ff76ac4f (AddressProfile): Deg=1395, FraudRate=2.44%
+    REG_8ebb9153c9 (Region): Deg=1395, FraudRate=2.44%
+    ADDRP_0bd84616a0 (AddressProfile): Deg=1366, FraudRate=3.22%
+    REG_ef29b930e8 (Region): Deg=1366, FraudRate=3.22%
+    CARD1_d800149d2f (CardIssuer): Deg=1283, FraudRate=0.23%
+    EMAIL_ea5ddf3148 (EmailDomain): Deg=1016, FraudRate=3.00%
+    ADDRP_27f6d1cd09 (AddressProfile): Deg=921, FraudRate=2.17%
+    REG_f426b0827b (Region): Deg=921, FraudRate=2.17%
+    ADDRP_d219636de0 (AddressProfile): Deg=920, FraudRate=1.41%
+    REG_5b9489fd28 (Region): Deg=920, FraudRate=1.41%
+    DEV_168afcd788 (Device): Deg=760, FraudRate=2.50%
