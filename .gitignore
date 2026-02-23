@@ -27,6 +27,6 @@ __pycache__/
 .idea/
 
 # Visualizations (Optional to ignore, but good practice if large)
-*.png
+# *.png (Commented out to allow pushing visual metrics)
 *.jpg
 *.pdf
