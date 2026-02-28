@@ -1,0 +1,36 @@
+2026-02-25 17:51:16,128 [INFO] === Starting Phase 2 V2 Calibration & Evaluation ===
+2026-02-25 17:51:16,128 [INFO] Loading data from /home/ubuntu/Graph/graph1/ieee-fraud-detection/phase2_v2/artifacts/processed_data.parquet
+2026-02-25 17:51:16,179 [INFO] Loading XGBoost model from /home/ubuntu/Graph/graph1/ieee-fraud-detection/phase2_v2/artifacts/xgboost_v2.model
+2026-02-25 17:51:16,373 [INFO] Getting raw model predictions...
+2026-02-25 17:51:16,426 [INFO] Train PR-AUC: 0.9401 | Val PR-AUC: 0.1971
+2026-02-25 17:51:16,426 [WARNING] High overfitting detected in raw model!
+2026-02-25 17:51:16,426 [INFO] Fitting Isotonic Regression on Validation Set...
+2026-02-25 17:51:16,429 [INFO] Brier Score (Raw Test): 0.1190
+2026-02-25 17:51:16,429 [INFO] Brier Score (Calibrated Test): 0.0313
+2026-02-25 17:51:16,430 [INFO] Optimal Threshold (Max F1 on Val): 0.2000
+2026-02-25 17:51:16,430 [INFO] Calculating final metrics on Test Set...
+2026-02-25 17:51:16,436 [INFO] Evaluation report generated at: /home/ubuntu/Graph/graph1/ieee-fraud-detection/phase2_v2/reports/phase2_v2_metrics.md
+2026-02-25 17:51:16,436 [INFO] Calculating SHAP values...
+2026-02-25 17:51:16,503 [INFO] 
+--- Top 20 SHAP Features ---
+2026-02-25 17:51:16,503 [INFO] TransactionAmt: 0.1118
+2026-02-25 17:51:16,503 [INFO] fraud_neighbor_ratio: 0.0759
+2026-02-25 17:51:16,504 [INFO] weighted_fraud_score: 0.0570
+2026-02-25 17:51:16,504 [INFO] emb_199: 0.0469
+2026-02-25 17:51:16,504 [INFO] emb_155: 0.0347
+2026-02-25 17:51:16,504 [INFO] dist_regions_per_card: 0.0306
+2026-02-25 17:51:16,504 [INFO] emb_52: 0.0289
+2026-02-25 17:51:16,504 [INFO] emb_159: 0.0274
+2026-02-25 17:51:16,504 [INFO] log_TransactionAmt: 0.0253
+2026-02-25 17:51:16,504 [INFO] emb_149: 0.0252
+2026-02-25 17:51:16,504 [INFO] emb_220: 0.0245
+2026-02-25 17:51:16,504 [INFO] emb_140: 0.0243
+2026-02-25 17:51:16,504 [INFO] emb_83: 0.0239
+2026-02-25 17:51:16,504 [INFO] emb_121: 0.0231
+2026-02-25 17:51:16,504 [INFO] dist_emails_per_device: 0.0207
+2026-02-25 17:51:16,504 [INFO] emb_130: 0.0190
+2026-02-25 17:51:16,504 [INFO] emb_219: 0.0184
+2026-02-25 17:51:16,504 [INFO] emb_65: 0.0183
+2026-02-25 17:51:16,504 [INFO] emb_46: 0.0178
+2026-02-25 17:51:16,504 [INFO] emb_110: 0.0169
+2026-02-25 17:51:16,504 [INFO] === Calibration & Evaluation Complete ===
