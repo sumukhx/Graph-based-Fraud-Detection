@@ -1,0 +1,23 @@
+[
+    {
+        "test_name": "Label Shuffle (v3)",
+        "pr_auc": 0.04751719782508058,
+        "target_baseline": 0.032,
+        "pass": true
+    },
+    {
+        "test_name": "Entity OOV Validity",
+        "oov_rates": {
+            "entity_seen_in_train_device": 0.7596666666666667,
+            "entity_seen_in_train_email": 0.13833333333333334,
+            "entity_seen_in_train_card": 0.0,
+            "entity_seen_in_train_addr": 0.093,
+            "entity_seen_in_train_idp": 0.7103333333333334
+        },
+        "pass": true
+    },
+    {
+        "test_name": "Join Integrity",
+        "pass": true
+    }
+]

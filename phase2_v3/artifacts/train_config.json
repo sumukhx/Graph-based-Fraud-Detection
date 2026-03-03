@@ -1,0 +1,1 @@
+{"params": {"objective": "binary:logistic", "eval_metric": "aucpr", "max_depth": 5, "min_child_weight": 10, "subsample": 0.7, "colsample_bytree": 0.7, "learning_rate": 0.05, "reg_lambda": 10, "reg_alpha": 1, "scale_pos_weight": 35.8421052631579, "random_state": 42, "n_jobs": 4}, "best_iteration": 88, "best_val_pr": 0.3398504709600915, "num_train": 14000, "num_val": 3000}

@@ -1,0 +1,15 @@
+{
+    "random_state": 42,
+    "train_pct": 0.7,
+    "val_pct": 0.15,
+    "test_pct": 0.15,
+    "xgb_params": {
+        "max_depth": 6,
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "eval_metric": [
+            "logloss",
+            "aucpr"
+        ]
+    }
+}
